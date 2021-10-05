@@ -1,0 +1,24 @@
+Input: 'abrakadabra' (bin):
+	Success! 
+ 	 [[0 a 100 k 101 d 110 b 111 r]]
+ 	 01101110100010101101110
+Input: 'abrakadabra' (chars):
+	Success! 
+ 	 [[0 a 100 k 101 d 110 b 111 r]]
+ 	 nÜ
+Input: 'aaaab' (bin):
+	Success! 
+ 	 [[0 b 1 a]]
+ 	 11110
+Input: 'aaaab' (chars):
+	Success! 
+ 	 [[0 b 1 a]]
+ 	 àð
+Input: 'Hello World!!!' (bin):
+	Success! 
+ 	 [[00 l 01 ! 100 o 1010 H 1011 e 1100   1101 W 1110 r 1111 d]]
+ 	 101010110000100110011011001110001111010101
+Input: 'Hello World!!!' (chars):
+	Success! 
+ 	 [[00 l 01 ! 100 o 1010 H 1011 e 1100   1101 W 1110 r 1111 d]]
+ 	 ü«	8õ@
