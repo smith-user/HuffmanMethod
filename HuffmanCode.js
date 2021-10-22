@@ -72,9 +72,9 @@ function fillingDictionary(code, node) {
 
 // Возвращает массив из двух индексов неиспользованных узлов с наименьшими freq
 function findTwoNodesWithMinFreq() {
-	let min0 = 1000;
+	let min0 =  Number.POSITIVE_INFINITY;
 	let index0 = 0;
-	let min1 = 1000;
+	let min1 =  Number.POSITIVE_INFINITY;
 	let index1 = 0;
 	for (let i = 0; i < nodes.length; i++) {
 		if (nodes[i].used) 
